@@ -1,0 +1,6 @@
+Convolutional Neural Network (CNN) built using Keras' Sequential API.
+
+The model used is a custom Convolutional Neural Network (CNN) built using Keras' Sequential API. This model is designed for binary image classification to detect if an image contains a knife or not.
+
+By adding more convolutional layers and using max pooling, the model can learn more complex features, which improves its ability to distinguish between images with and without knives.
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knife Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dark-theme.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result-box">
+            {% if prediction == 0 %}
+                <p>Knife detected!</p>
+                <img src="{{ url_for('static', filename='knife-image.png') }}" alt="Knife Detected">
+            {% elif prediction == 1 %}
+                <p>No knife detected.</p>
+                <img src="{{ url_for('static', filename='no-knife-image.png') }}" alt="No Knife Detected">
+            {% else %}
+                <p>Unknown result.</p>
+            {% endif %}
+        </div>
+        <p><a href="/">Back to upload page</a></p>
+    </div>
+</body>
+</html>

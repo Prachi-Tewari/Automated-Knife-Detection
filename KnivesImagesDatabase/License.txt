@@ -1,0 +1,11 @@
+The database containes images with rsolution 100x100 pixels:
+- 9340 negative examples,
+- 3559 positive examples.
+
+The database is free to use in any scientific work.
+In case of commercial use please contact: matiolanski@kt.agh.edu.pl
+
+If you use our database please cite a paper:
+Fuzzy Classification Method for Knife Detection Problem, Aleksandra MAKSIMOWA, Andrzej MATIOLAÑSKI, Jacob WASSERMANN, Multimedia communications, services and security : 7th international conference MCSS 2014 : Krakow, Poland, June 11, 2014 : proceedings, eds. Andrzej Dziech, Andrzej Czy¿ewski. — Berlin ; Heidelberg : Springer-Verlag, 2014. — (Communications in Computer and Information Science ; 429). — ISBN 78-3-319-07568-6. — S. 159–169. — Bibliogr. s. 159–169, Abstr. DOI 10.1007/978-3-319-07569-3_13
+
+Available at: http://link.springer.com/chapter/10.1007%2F978-3-319-07569-3_13
